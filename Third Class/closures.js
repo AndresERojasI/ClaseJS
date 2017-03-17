@@ -6,7 +6,7 @@ function fullName (first, last) {
   var intro = "Your name is ";
 
   //This function can access the outer function variables including the params
-  function combineName() {
+  function combineName () {
     return intro + first + " " + last;
   }
 
@@ -14,6 +14,11 @@ function fullName (first, last) {
 }
 
 console.log(fullName('Andres', 'Rojas'));
+
+
+
+
+
 
 /**
  * Delayed access to parameters, also can access outer global variables
